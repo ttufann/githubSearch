@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Search, Star, GitFork, ExternalLink, BookOpen, LayoutTemplate, Code2, Menu } from 'lucide-react';
-import './app.css'
+import './App.css'
 const App = () => {
   const [input, setInput] = useState('');
   const [repos, setRepos] = useState([]);
